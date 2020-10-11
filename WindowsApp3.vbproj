@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC552544-E6AE-4054-82C8-551AD2FEBCBF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApp3.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApp3</RootNamespace>
+    <AssemblyName>-</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>-.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>-.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
+      <HintPath>..\..\..\Downloads\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="GCDesign">
+      <HintPath>..\WindowsApp1\packages\GCDesign.1.0.0\lib\net46\GCDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>packages\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forgotpw.Designer.vb">
+      <DependentUpon>Forgotpw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forgotpw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="border.Designer.vb">
+      <DependentUpon>border.vb</DependentUpon>
+    </Compile>
+    <Compile Include="border.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bgimage.Designer.vb">
+      <DependentUpon>bgimage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bgimage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bgcolor.Designer.vb">
+      <DependentUpon>bgcolor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bgcolor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="box.Designer.vb">
+      <DependentUpon>box.vb</DependentUpon>
+    </Compile>
+    <Compile Include="box.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Column.Designer.vb">
+      <DependentUpon>Column.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Column.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showmargin.Designer.vb">
+      <DependentUpon>showmargin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="showmargin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frontpage.Designer.vb">
+      <DependentUpon>frontpage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frontpage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preview.Designer.vb">
+      <DependentUpon>preview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="preview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newuser.Designer.vb">
+      <DependentUpon>newuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newuser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainform.Designer.vb">
+      <DependentUpon>Mainform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mainform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homepage.Designer.vb">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPConfirm.Designer.vb">
+      <DependentUpon>RPConfirm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RPConfirm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resetpw.Designer.vb">
+      <DependentUpon>Resetpw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resetpw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="box.resx">
+      <DependentUpon>box.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Column.resx">
+      <DependentUpon>Column.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forgotpw.resx">
+      <DependentUpon>Forgotpw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="border.resx">
+      <DependentUpon>border.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bgimage.resx">
+      <DependentUpon>bgimage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bgcolor.resx">
+      <DependentUpon>bgcolor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showmargin.resx">
+      <DependentUpon>showmargin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frontpage.resx">
+      <DependentUpon>frontpage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preview.resx">
+      <DependentUpon>preview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newuser.resx">
+      <DependentUpon>newuser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainform.resx">
+      <DependentUpon>Mainform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homepage.resx">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPConfirm.resx">
+      <DependentUpon>RPConfirm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resetpw.resx">
+      <DependentUpon>Resetpw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
